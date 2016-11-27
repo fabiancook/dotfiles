@@ -44,6 +44,7 @@ brew upgrade --all
 # which version I'm using.
 
 apps=(
+    heroku
     keybase
     nvm
     mongodb
