@@ -44,7 +44,6 @@ brew upgrade --all
 # which version I'm using.
 
 apps=(
-    rvm
     keybase
     nvm
     mongodb
@@ -76,7 +75,11 @@ apps=(
     wifi-password
 )
 
-brew install "${apps[@]}"
+for app in "${apps[@]}"
+do
+    echo "Installing ${app}"
+    brew install "${app}" || true
+done
 
 # Remove outdated versions from the cellar
 brew cleanup
