@@ -37,10 +37,10 @@ export PATH
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="nick"
+ZSH_THEME="gallois"
 
 # Z beats cd most of the time
-. ~/z/z.sh
+# . ~/z/z.sh
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -98,6 +98,3 @@ source $ZSH/oh-my-zsh.sh
 
 # npm tab completion
 . <(npm completion)
-
-# fortune: brew install fortune ponysay
-fortune | ponysay

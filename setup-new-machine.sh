@@ -88,6 +88,11 @@ $HOME/dotfiles/install/brew-cask.sh
 # Node                                                                        #
 ###############################################################################
 
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
 $HOME/dotfiles/install/npm.sh
 
 # Type `git open` to open the GitHub page or website for a repository.

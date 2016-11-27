@@ -254,3 +254,6 @@
 
 [fetch]
         prune = true
+[user]
+	name = Fabian Cook
+	email = faybecook@gmail.com

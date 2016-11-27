@@ -7,7 +7,9 @@ brew tap caskroom/versions
 
 # Install packages
 apps=(
+    npm
     1password
+    bittorrent
     gyazo
     dropbox
     google-drive
@@ -16,6 +18,7 @@ apps=(
     dash
     imagealpha
     imageoptim
+    intellij-idea
     evernote
     iterm2
     atom
@@ -34,6 +37,7 @@ apps=(
     spotify
     skype
     slack
+    sublime-text3
     tower
     transmit
     elmedia-player

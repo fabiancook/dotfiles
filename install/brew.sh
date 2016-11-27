@@ -45,8 +45,10 @@ brew upgrade --all
 
 apps=(
     rvm
+    keybase
     nvm
     mongodb
+    redis
     bash-completion2
     coreutils
     moreutils
