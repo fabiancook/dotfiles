@@ -52,6 +52,7 @@ packages=(
     nodemon
     svgo
     yo
+    bower
 )
 
 npm install -g "${packages[@]}"
